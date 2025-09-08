@@ -17,8 +17,8 @@ int main()
     cout << "Multiplication: " << x << "*" << y << "=" << x * y << endl;
     cout << "Division: " << x << "/" << y << "=" << x / y << endl;
     cout << "Remainder: " << x << "%" << y << "=" << x % y << endl;
-    cout << "Square Root: " << x << "√" << y << "=" << sqrt(x) << endl;
-    cout << "Square: " << x << "^2" << y << "=" << pow(x, y) << endl;
+    cout << "Square Root: " << "√" << x << "=" << sqrt(x) << endl;
+    cout << "Square: " << x << "^" << y << "=" << pow(x, y) << endl;
 
     return 0;
 }
